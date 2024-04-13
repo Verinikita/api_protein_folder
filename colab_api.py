@@ -91,3 +91,8 @@ if __name__ == '__main__':
     ejecutar_colab(driver)
     input('Programa Terminado, presiona una tecla para salir')
     driver.quit()
+    driver = iniciar_driver()
+    login_driver(driver)
+    ejecutar_colab(driver)
+    input('Programa Terminado, presiona una tecla para salir')
+    driver.quit()
